@@ -152,7 +152,7 @@ public class Program {
                     System.out.println("Caso deseja sair, digite '0' ");
                     System.out.print("Deseja sair(S) ou continuar(C): ");
                     char choice = sc.next().toLowerCase().charAt(0);
-                    if (choice == 's' || choice == 'S') {
+                    if (choice == 'c' || choice == 'C') {
                         System.out.println();
                         System.out.println("Lista dos Usuários!!");
                         register.getAllUsers(new User());
